@@ -11,12 +11,15 @@ navigate this space for a better sense of its astronomical scale.
 I decided to draw my own. The SVG format seemed a natural choice which had
 a number of benefits.
 
+![A zoomed-out view up to Earth](sample2.png)
+
+
 ## Content
 
-So there we have it. The file `SolarSystem.svg` is a to-scale representation of
-the Solar System that includes the Sun and the eight planets (Mercury to
-Neptune). Other objects are not included in this first version, except Earth's
-Moon.
+So there we have it. The file [SolarSystem.svg](./SolarSystem.svg) is a
+to-scale representation of the Solar System that includes the Sun and the eight
+planets (Mercury to Neptune). Other objects are not included in this first
+version, except Earth's Moon.
 
 The SVG file is about 45000 units wide. Unit used at file creation is the
 millimeter. Each unit represents 100000 kilometers. This was the best
@@ -28,8 +31,8 @@ from the Sun, hence the width mentioned above.
 
 The Sun (its center) is at pixel/millimeter 0 (far left), so most SVG viewers
 will crop half of the Sun and hide everything positioned left of its center.
-See "Using the file" below. This decision was made to position objects easily
-(distance from the Sun corresponds to their x coordinate).
+See [Using the file](#using-the-file) below. This decision was made to position
+objects easily (distance from the Sun corresponds to their x coordinate).
 
 On the left of the Sun I duplicated all planets to show how they compare to
 each other easily (as with most representations found around the web and
@@ -41,6 +44,8 @@ represented here.
 
 To make life easier in finding objects in the SVG, a much larger label was
 added above each.
+
+![Zoom on the Sun showing its width at position 0](sample1.png)
 
 
 ## Using the file
