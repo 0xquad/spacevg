@@ -1,5 +1,8 @@
 # SpaceVG - a representation of space in SVG files
 
+> [!TIP]
+> TL;DR - Open the SVG file in an SVG editor, navigate the to-scale Solar System
+
 ## The What and the Why
 
 I was looking for a to-scale representation of the Solar System to help grasp
